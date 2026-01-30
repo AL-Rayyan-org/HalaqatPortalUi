@@ -1,0 +1,33 @@
+{
+    "title": {
+        "changeVerification": "Email Change Verification",
+        "emailVerification": "Email Verification"
+    },
+    "descriptions": {
+        "verifying": "Please wait while we verify your email change request",
+        "changeSuccessful": "Your email address has been changed successfully",
+        "changeError": "There was an issue with your email change link",
+        "verifyingEmail": "Please wait while we verify your email",
+        "emailVerified": "Your email has been verified successfully",
+        "verificationError": "There was an issue with your verification link"
+    },
+    "messages": {
+        "verifying": "Verifying your email change request...",
+        "changeSuccessful": "Your email address has been successfully changed!",
+        "redirectToSettings": "You will be redirected to settings in a few seconds...",
+        "waitingMessage": "This may take a few moments..."
+    },
+    "errors": {
+        "invalidLinkMissingBoth": "Invalid email change link. Missing verification code and email address.",
+        "invalidLinkMissingCode": "Invalid email change link. Missing verification code.",
+        "invalidLinkMissingEmail": "Invalid email change link. Missing email address.",
+        "failedToVerifyCode": "Failed to verify code",
+        "failedToCompleteChange": "Failed to complete email change",
+        "genericError": "An error occurred during email change",
+        "invalidVerificationLinkMissingBoth": "Invalid verification link. Missing verification code and email address.",
+        "invalidVerificationLinkMissingCode": "Invalid verification link. Missing verification code.",
+        "invalidVerificationLinkMissingEmail": "Invalid verification link. Missing email address."
+    },
+    "goToSettings": "Go to Settings",
+    "backToSettings": "Back to Settings"
+}

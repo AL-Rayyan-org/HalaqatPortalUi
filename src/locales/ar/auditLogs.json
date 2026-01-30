@@ -1,0 +1,40 @@
+{
+    "title": "سجلات المراجعة",
+    "description": "عرض وتتبع جميع أنشطة النظام والتغييرات",
+    "table": {
+        "action": "الإجراء",
+        "entity": "الكيان",
+        "user": "المستخدم",
+        "organization": "المؤسسة",
+        "entityId": "معرف الكيان",
+        "context": "السياق",
+        "date": "التاريخ"
+    },
+    "filters": {
+        "allOrganizations": "جميع المؤسسات",
+        "allUsers": "جميع المستخدمين",
+        "selectUser": "اختر المستخدم",
+        "searchEntityById": "البحث بواسطة معرف الكيان"
+    },
+    "viewDetails": "عرض التفاصيل",
+    "details": {
+        "title": "تفاصيل سجل المراجعة",
+        "action": "الإجراء",
+        "entity": "الكيان",
+        "entityId": "معرف الكيان",
+        "user": "المستخدم",
+        "organization": "المؤسسة",
+        "scope": "النطاق",
+        "role": "الدور",
+        "date": "التاريخ",
+        "context": "السياق",
+        "noDetails": "لا توجد تفاصيل متاحة"
+    },
+    "errors": {
+        "failedToLoad": "فشل في تحميل سجلات المراجعة",
+        "failedToLoadFilters": "فشل في تحميل خيارات التصفية"
+    },
+    "noLogsFound": "لم يتم العثور على سجلات مراجعة",
+    "totalLogs": "الإجمالي: {{count}} سجل",
+    "systemLevel": "مستوى النظام"
+}

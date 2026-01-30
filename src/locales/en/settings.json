@@ -1,0 +1,286 @@
+{
+    "personalInformation": "Personal Information",
+    "personalInformationDescription": "Personal details and contact information.",
+    "accountSecurity": "Account Security",
+    "accountSecurityDescription": "Account security and authentication settings.",
+    "changePassword": "Change Password",
+    "changeEmailAddress": "Change Email Address",
+    "changeEmailDescription": "Enter your new email address. We'll send a verification link to confirm the change.",
+    "changePasswordDescription": "Enter your current password and choose a new password.",
+    "newEmailAddress": "New Email Address",
+    "confirmNewPassword": "Confirm New Password",
+    "sendVerification": "Send Verification",
+    "noWorkspacesFound": "No workspaces found",
+    "noWorkspacesDescription": "You need to create or be invited to a workspace to get started.",
+    "switchToWorkspace": "Switch to this workspace",
+    "leaveWorkspace": "Leave workspace",
+    "preferences": {
+        "title": "Preferences",
+        "description": "Customizations and settings.",
+        "language": "Language",
+        "selectLanguage": "Select language",
+        "languageDescription": "Choose your preferred language for the interface.",
+        "theme": "Theme"
+    },
+    "users": {
+        "title": "Users",
+        "description": "Manage users and their roles.",
+        "noUsersFound": "No users found"
+    },
+    "emailSettings": {
+        "title": "Email Settings",
+        "description": "Configure SMTP settings for sending emails from the system.",
+        "host": "SMTP Host",
+        "hostPlaceholder": "e.g., smtp.example.com",
+        "port": "SMTP Port",
+        "fromEmail": "From Email",
+        "fromEmailPlaceholder": "e.g., noreply@example.com",
+        "fromName": "From Name",
+        "fromNamePlaceholder": "e.g., Hafiz Platform",
+        "username": "Username",
+        "usernamePlaceholder": "Enter SMTP username",
+        "password": "Password",
+        "passwordPlaceholder": "Leave empty to keep current password",
+        "validation": {
+            "invalidPort": "Port must be between 1 and 65535"
+        },
+        "messages": {
+            "updated": "Email settings updated successfully"
+        },
+        "errors": {
+            "failedToLoad": "Failed to load email settings",
+            "failedToUpdate": "Failed to update email settings",
+            "ownerOnly": "Only the system owner can access email settings"
+        }
+    },
+    "categories": {
+        "title": "Categories",
+        "description": "Manage services categories.",
+        "newCategory": "New Category",
+        "editCategory": "Edit Category",
+        "namePlaceholder": "Enter category name",
+        "createdOn": "Created On",
+        "noCategories": "No categories found",
+        "created": "Category created successfully",
+        "updated": "Category updated successfully",
+        "deleted": "Category deleted successfully",
+        "deleteConfirmTitle": "Delete Category",
+        "deleteConfirmDescription": "Are you sure you want to delete {{name}}? This action cannot be undone."
+    },
+    "services": {
+        "title": "Services",
+        "description": "Manage services and their configurations.",
+        "newService": "New Service",
+        "editService": "Edit Service",
+        "code": "Service Code",
+        "codePlaceholder": "e.g., VISA-001",
+        "namePlaceholder": "Enter service name",
+        "costPrice": "Cost Price",
+        "sellingPrice": "Selling Price",
+        "requirements": "Requirements",
+        "requirementsPlaceholder": "Describe the requirements for this service...",
+        "selectCategory": "Select category",
+        "selectStatus": "Select status",
+        "createdOn": "Created On",
+        "noServices": "No services found",
+        "searchServices": "Search services...",
+        "allStatuses": "All Statuses",
+        "allCategories": "All Categories",
+        "totalServices": "{{count}} service",
+        "totalServices_other": "{{count}} services",
+        "created": "Service created successfully",
+        "updated": "Service updated successfully",
+        "deleted": "Service deleted successfully",
+        "statusUpdated": "Service status updated successfully",
+        "deleteConfirmDescription": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+        "changeStatus": "Change Status",
+        "changeStatusDescription": "Are you sure you want to change the status of {{name}} to {{status}}?",
+        "duplicate": "Duplicate",
+        "duplicatedSuccess": "Service duplicated successfully",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "archive": "Archive",
+        "status": {
+            "active": "Active",
+            "inactive": "Inactive",
+            "archived": "Archived"
+        },
+        "tabs": {
+            "basic": "Basic Info",
+            "delivery": "Delivery Options",
+            "form": "Form Fields",
+            "countries": "Countries"
+        },
+        "deliveryOptions": "Delivery Options",
+        "deliveryOptionsDescription": "Configure how customers can receive their service deliverables.",
+        "noDeliveryOptions": "No delivery options available",
+        "deliveryType": "Delivery Type",
+        "priceType": "Price Type",
+        "notes": "Notes",
+        "notesPlaceholder": "Additional notes...",
+        "deliveryTypes": {
+            "online": "Online (Platform)",
+            "inBranch": "In Branch",
+            "domesticShipping": "Domestic Shipping",
+            "internationalShipping": "International Shipping"
+        },
+        "priceTypes": {
+            "fixed": "Fixed Price",
+            "setLater": "Set Later"
+        },
+        "formFields": "Form Fields",
+        "formFieldsDescription": "Define the fields customers need to fill when applying for this service.",
+        "noFormFields": "No form fields available",
+        "addField": "Add Field",
+        "fieldLabel": "Label",
+        "fieldLabelPlaceholder": "Enter field label",
+        "fieldType": "Type",
+        "required": "Required",
+        "fieldTypes": {
+            "text": "Text",
+            "number": "Number",
+            "list": "Selection List",
+            "date": "Date",
+            "phone": "Phone",
+            "email": "Email",
+            "file": "File Upload",
+            "country": "Country"
+        },
+        "fieldSettings": {
+            "multiline": "Multiline",
+            "minLength": "Min Length",
+            "maxLength": "Max Length",
+            "minValue": "Min Value",
+            "maxValue": "Max Value",
+            "pastOnly": "Past dates only",
+            "futureOnly": "Future dates only",
+            "options": "Options",
+            "optionName": "Option Name",
+            "optionValue": "Option Value",
+            "defaultOption": "Default",
+            "displayType": "Display Type",
+            "dropdown": "Dropdown",
+            "radio": "Radio Buttons"
+        },
+        "preview": "Preview",
+        "textPlaceholder": "Enter text",
+        "enterNumber": "Enter number",
+        "enterEmail": "Enter email address",
+        "enterPhone": "Enter phone number",
+        "selectDate": "Select date",
+        "chooseFile": "Choose file",
+        "selectCountry": "Select country",
+        "selectOption": "Select an option",
+        "option": "Option",
+        "countries": {
+            "nationality": "Nationality Countries",
+            "nationalityDescription": "Select countries allowed for nationality.",
+            "residency": "Residency Countries",
+            "residencyDescription": "Select countries allowed for residency.",
+            "allCountries": "All Countries",
+            "selectSpecific": "Select Specific",
+            "excluding": "Excluding {{count}} countries",
+            "searchCountries": "Search countries...",
+            "selectedCount": "Selected {{count}} of {{total}} countries",
+            "noCountriesFound": "No countries found",
+            "atLeastOne": "At least one country must be selected"
+        },
+        "closeConfirmTitle": "Close Form?",
+        "closeConfirmDescription": "Are you sure you want to close the form? All unsaved changes will be lost.",
+        "closeForm": "Close Form",
+        "errors": {
+            "failedToLoad": "Failed to load services",
+            "failedToDelete": "Failed to delete service",
+            "failedToUpdateStatus": "Failed to update service status"
+        }
+    },
+    "actions": {
+        "addNewUser": "Add New User",
+        "newMember": "New User",
+        "changeRole": "Change Role",
+        "changePassword": "Change Password"
+    },
+    "modals": {
+        "addUser": {
+            "description": "Add a new system user with their details and role."
+        },
+        "changeRole": {
+            "description": "Change the role for {{name}}."
+        },
+        "changePassword": {
+            "description": "Change the password for {{name}}."
+        },
+        "changeStatus": {
+            "description": "Change the status for {{name}}."
+        }
+    },
+    "confirmations": {
+        "deleteUser": "Are you sure you want to delete {{name}}? This action cannot be undone."
+    },
+    "messages": {
+        "userAddedSuccessfully": "User added successfully",
+        "userDeletedSuccessfully": "User deleted successfully",
+        "userRoleUpdated": "User role updated successfully"
+    },
+    "validation": {
+        "codeRequired": "Service code is required",
+        "nameRequired": "Service name is required",
+        "categoryRequired": "Category is required",
+        "priceInvalid": "Price must be 0 or greater",
+        "nationalityRequired": "At least one nationality country is required",
+        "fieldLabelRequired": "All form fields must have a label",
+        "optionNameRequired": "Option name is required",
+        "optionValueRequired": "Option value is required",
+        "duplicateOptionValue": "Duplicate option values are not allowed"
+    },
+    "errors": {
+        "unableToLoadProfile": "Unable to load profile information",
+        "failedToLoadTimezones": "Failed to load timezones",
+        "failedToUpdateProfile": "Failed to update profile",
+        "failedToLoadUsers": "Failed to load users",
+        "failedToAddUser": "Failed to add user",
+        "failedToDeleteUser": "Failed to delete user",
+        "failedToUpdateUserRole": "Failed to update user role",
+        "cannotDeleteOwner": "Cannot delete owner",
+        "cannotChangeOwnerRole": "Cannot change owner role",
+        "couldntLoadData": "Couldn't load data"
+    },
+    "loading": {
+        "securitySettings": "Loading security settings...",
+        "notificationSettings": "Loading notification settings..."
+    },
+    "addOption": "Add Option",
+    "notificationTemplates": {
+        "title": "Notification Templates",
+        "description": "Manage email notification templates and their content for different languages.",
+        "templateId": "Template ID",
+        "noTemplates": "No notification templates found",
+        "variables": "Variables",
+        "variablesHint": "Click on a variable to insert it at the cursor position in the Subject or Body field.",
+        "selectFieldFirst": "Please click on Subject or Body field first to insert the variable.",
+        "subject": "Subject",
+        "subjectPlaceholder": "Enter email subject",
+        "body": "Body",
+        "bodyPlaceholder": "Enter email body content",
+        "bodyIsHtml": "Body is HTML",
+        "moreSettings": "More Settings",
+        "from": "From Email",
+        "fromPlaceholder": "e.g., support@example.com",
+        "fromName": "From Name",
+        "fromNamePlaceholder": "e.g., Hafiz Platform",
+        "replyTo": "Reply To Email",
+        "replyToPlaceholder": "Reply To email address",
+        "cc": "Cc",
+        "ccPlaceholder": "Type email and press Enter to add",
+        "bcc": "Bcc",
+        "bccPlaceholder": "Type email and press Enter to add",
+        "messages": {
+            "updated": "Template updated successfully"
+        },
+        "errors": {
+            "failedToLoad": "Failed to load notification templates",
+            "failedToUpdate": "Failed to update notification template",
+            "adminOnly": "Only administrators can access notification templates"
+        }
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "personalInformation": "المعلومات الشخصية",
+    "personalInformationDescription": "المعلومات الشخصية ومعلومات الاتصال.",
+    "workspaceMemberships": "العضويات",
+    "workspaceMembershipsDescription": "إدارة عضويتك عبر مساحات العمل المختلفة.",
+    "accountSecurity": "أمان الحساب",
+    "accountSecurityDescription": "أمان الحساب وإعدادات المصادقة.",
+    "changePassword": "تغيير كلمة المرور",
+    "changeEmailAddress": "تغيير عنوان البريد الإلكتروني",
+    "changeEmailDescription": "أدخل عنوان بريدك الإلكتروني الجديد. سنرسل رابط تحقق لتأكيد التغيير.",
+    "changePasswordDescription": "أدخل كلمة المرور الحالية واختر كلمة مرور جديدة.",
+    "newEmailAddress": "عنوان البريد الإلكتروني الجديد",
+    "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+    "sendVerification": "إرسال التحقق",
+    "noWorkspacesFound": "لم يتم العثور على مساحات عمل",
+    "noWorkspacesDescription": "تحتاج إلى إنشاء مساحة عمل أو أن تتم دعوتك لمساحة عمل للبدء.",
+    "switchToWorkspace": "التبديل إلى مساحة العمل هذه",
+    "leaveWorkspace": "مغادرة مساحة العمل",
+    "preferences": {
+        "title": "التفضيلات",
+        "description": "التخصيصات والإعدادات.",
+        "language": "اللغة",
+        "selectLanguage": "اختر اللغة",
+        "languageDescription": "اختر لغتك المفضلة للواجهة.",
+        "theme": "المظهر"
+    },
+    "users": {
+        "title": "المستخدمون",
+        "description": "إدارة المستخدمون وصلاحياتهم.",
+        "noUsersFound": "لم يتم العثور على مستخدمين"
+    },
+    "emailSettings": {
+        "title": "إعدادات البريد الإلكتروني",
+        "description": "تكوين إعدادات SMTP لإرسال رسائل البريد الإلكتروني من النظام.",
+        "host": "خادم SMTP",
+        "hostPlaceholder": "مثال: smtp.example.com",
+        "port": "منفذ SMTP",
+        "fromEmail": "البريد الإلكتروني للمرسل",
+        "fromEmailPlaceholder": "مثال: noreply@example.com",
+        "fromName": "اسم المرسل",
+        "fromNamePlaceholder": "مثال: منصة حافظ",
+        "username": "اسم المستخدم",
+        "usernamePlaceholder": "أدخل اسم المستخدم SMTP",
+        "password": "كلمة المرور",
+        "passwordPlaceholder": "اتركه فارغاً للحفاظ على كلمة المرور الحالية",
+        "validation": {
+            "invalidPort": "يجب أن يكون المنفذ بين 1 و 65535"
+        },
+        "messages": {
+            "updated": "تم تحديث إعدادات البريد الإلكتروني بنجاح"
+        },
+        "errors": {
+            "failedToLoad": "فشل في تحميل إعدادات البريد الإلكتروني",
+            "failedToUpdate": "فشل في تحديث إعدادات البريد الإلكتروني",
+            "ownerOnly": "يمكن للمالك فقط الوصول إلى إعدادات البريد الإلكتروني"
+        }
+    },
+    "categories": {
+        "title": "التصنيفات",
+        "description": "إدارة تصنيفات الخدمات.",
+        "newCategory": "تصنيف جديدة",
+        "editCategory": "تعديل التصنيف",
+        "namePlaceholder": "أدخل اسم التصنيف",
+        "createdOn": "تاريخ الإنشاء",
+        "noCategories": "لم يتم العثور على تصنيفات",
+        "created": "تم إنشاء التصنيف بنجاح",
+        "updated": "تم تحديث التصنيف بنجاح",
+        "deleted": "تم حذف التصنيف بنجاح",
+        "deleteConfirmTitle": "حذف التصنيف",
+        "deleteConfirmDescription": "هل أنت متأكد من حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "services": {
+        "title": "الخدمات",
+        "description": "إدارة الخدمات وإعداداتها.",
+        "newService": "خدمة جديدة",
+        "editService": "تعديل الخدمة",
+        "code": "رمز الخدمة",
+        "codePlaceholder": "مثال: VISA-001",
+        "namePlaceholder": "أدخل اسم الخدمة",
+        "costPrice": "سعر التكلفة",
+        "sellingPrice": "سعر البيع",
+        "requirements": "المتطلبات",
+        "requirementsPlaceholder": "اشرح متطلبات هذه الخدمة",
+        "selectCategory": "اختر التصنيف",
+        "selectStatus": "اختر الحالة",
+        "createdOn": "تاريخ الإنشاء",
+        "noServices": "لم يتم العثور على خدمات",
+        "searchServices": "البحث في الخدمات...",
+        "allStatuses": "جميع الحالات",
+        "allCategories": "جميع التصنيفات",
+        "totalServices": "{{count}} خدمة",
+        "totalServices_other": "{{count}} خدمة",
+        "created": "تم إنشاء الخدمة بنجاح",
+        "updated": "تم تحديث الخدمة بنجاح",
+        "deleted": "تم حذف الخدمة بنجاح",
+        "statusUpdated": "تم تحديث حالة الخدمة بنجاح",
+        "deleteConfirmDescription": "هل أنت متأكد من حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+        "changeStatus": "تغيير الحالة",
+        "changeStatusDescription": "هل أنت متأكد من تغيير حالة {{name}} إلى {{status}}؟",
+        "duplicate": "نسخ",
+        "duplicatedSuccess": "تم نسخ الخدمة بنجاح",
+        "activate": "تفعيل",
+        "deactivate": "إلغاء التفعيل",
+        "archive": "أرشفة",
+        "status": {
+            "active": "فعالة",
+            "inactive": "غير فعالة",
+            "archived": "مؤرشفة"
+        },
+        "tabs": {
+            "basic": "المعلومات الأساسية",
+            "delivery": "خيارات التسليم",
+            "form": "حقول النموذج",
+            "countries": "الدول"
+        },
+        "deliveryOptions": "خيارات التسليم",
+        "deliveryOptionsDescription": "تكوين طرق استلام العملاء لمخرجات الخدمة.",
+        "noDeliveryOptions": "لم يتم تكوين خيارات التسليم",
+        "deliveryType": "نوع التسليم",
+        "priceType": "نوع السعر",
+        "notes": "ملاحظات",
+        "notesPlaceholder": "ملاحظات إضافية",
+        "deliveryTypes": {
+            "online": "إلكترونياً عبر المنصة",
+            "inBranch": "مقر الشركة",
+            "domesticShipping": "الشحن داخل المملكة",
+            "internationalShipping": "الشحن خارج المملكة"
+        },
+        "priceTypes": {
+            "fixed": "سعر ثابت",
+            "setLater": "يحدد لاحقاً"
+        },
+        "formFields": "حقول النموذج",
+        "formFieldsDescription": "تحديد الحقول التي يجب على العملاء تعبئتها عند التقديم على هذه الخدمة.",
+        "noFormFields": "لم يتم تكوين حقول النموذج",
+        "addField": "إضافة حقل",
+        "fieldLabel": "العنوان",
+        "fieldLabelPlaceholder": "أدخل عنوان الحقل",
+        "fieldType": "النوع",
+        "required": "إلزامي",
+        "fieldTypes": {
+            "text": "نص",
+            "number": "رقم",
+            "list": "قائمة اختيار",
+            "date": "تاريخ",
+            "phone": "هاتف",
+            "email": "بريد إلكتروني",
+            "file": "رفع ملف",
+            "country": "دولة"
+        },
+        "fieldSettings": {
+            "multiline": "متعدد الأسطر",
+            "minLength": "الحد الأدنى للأحرف",
+            "maxLength": "الحد الأقصى للأحرف",
+            "minValue": "الحد الأدنى للقيمة",
+            "maxValue": "الحد الأقصى للقيمة",
+            "pastOnly": "تواريخ سابقة فقط",
+            "futureOnly": "تواريخ مستقبلية فقط",
+            "options": "الخيارات",
+            "optionName": "اسم الخيار",
+            "optionValue": "قيمة الخيار",
+            "defaultOption": "الافتراضي",
+            "displayType": "نوع العرض",
+            "dropdown": "قائمة منسدلة",
+            "radio": "أزرار اختيار"
+        },
+        "preview": "معاينة",
+        "textPlaceholder": "أدخل النص",
+        "enterNumber": "أدخل رقم",
+        "enterEmail": "أدخل البريد الإلكتروني",
+        "enterPhone": "أدخل رقم الهاتف",
+        "selectDate": "اختر التاريخ",
+        "chooseFile": "اختر ملف",
+        "selectCountry": "اختر الدولة",
+        "selectOption": "اختر خيار",
+        "option": "الخيار",
+        "countries": {
+            "nationality": "دول الجنسية",
+            "nationalityDescription": "اختر الدول المسموح بها للجنسية.",
+            "residency": "دول الإقامة",
+            "residencyDescription": "اختر الدول المسموح بها للإقامة.",
+            "allCountries": "جميع الدول",
+            "selectSpecific": "تحديد معين",
+            "excluding": "باستثناء {{count}} دولة",
+            "searchCountries": "البحث عن الدول...",
+            "selectedCount": "تم اختيار {{count}} من {{total}} دولة",
+            "noCountriesFound": "لم يتم العثور على دول",
+            "atLeastOne": "يجب تحديد دولة واحدة على الأقل"
+        },
+        "closeConfirmTitle": "إغلاق النموذج؟",
+        "closeConfirmDescription": "هل أنت متأكد من إغلاق النموذج؟ سيتم فقدان جميع التغييرات غير المحفوظة.",
+        "closeForm": "إغلاق النموذج",
+        "errors": {
+            "failedToLoad": "فشل في تحميل الخدمات",
+            "failedToDelete": "فشل في حذف الخدمة",
+            "failedToUpdateStatus": "فشل في تحديث حالة الخدمة"
+        }
+    },
+    "actions": {
+        "addNewUser": "إضافة مستخدم جديد",
+        "newMember": "مستخدم جديد",
+        "changeRole": "تغيير الصلاحية",
+        "changePassword": "تغيير كلمة المرور"
+    },
+    "modals": {
+        "addUser": {
+            "description": "إضافة مستخدم نظام جديد بتفاصيله ودوره."
+        },
+        "changeRole": {
+            "description": "تغيير الصلاحية لـ {{name}}."
+        },
+        "changePassword": {
+            "description": "تغيير كلمة المرور لـ {{name}}."
+        },
+        "changeStatus": {
+            "description": "تغيير الحالة لـ {{name}}."
+        }
+    },
+    "confirmations": {
+        "deleteUser": "هل أنت متأكد من حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "messages": {
+        "userAddedSuccessfully": "تمت إضافة المستخدم بنجاح",
+        "userDeletedSuccessfully": "تم حذف المستخدم بنجاح",
+        "userRoleUpdated": "تم تحديث دور المستخدم بنجاح"
+    },
+    "validation": {
+        "codeRequired": "رمز الخدمة مطلوب",
+        "nameRequired": "اسم الخدمة مطلوب",
+        "categoryRequired": "التصنيف مطلوب",
+        "priceInvalid": "يجب أن يكون السعر 0 أو أكثر",        "nationalityRequired": "يجب اختيار دولة واحدة على الأقل للجنسية",        "fieldLabelRequired": "يجب أن تحتوي جميع حقول النموذج على عنوان",
+        "optionNameRequired": "اسم الخيار مطلوب",
+        "optionValueRequired": "قيمة الخيار مطلوبة",
+        "duplicateOptionValue": "قيم الخيارات المكررة غير مسموحة"
+    },
+    "errors": {
+        "unableToLoadProfile": "غير قادر على تحميل معلومات الملف الشخصي",
+        "failedToLoadTimezones": "فشل في تحميل المناطق الزمنية",
+        "failedToUpdateProfile": "فشل في تحديث الملف الشخصي",
+        "failedToLoadUsers": "فشل في تحميل المستخدمين",
+        "failedToAddUser": "فشل في إضافة المستخدم",
+        "failedToDeleteUser": "فشل في حذف المستخدم",
+        "failedToUpdateUserRole": "فشل في تحديث دور المستخدم",
+        "cannotDeleteOwner": "لا يمكن حذف المالك",
+        "cannotChangeOwnerRole": "لا يمكن تغيير دور المالك",
+        "couldntLoadData": "تعذر تحميل البيانات"
+    },
+    "loading": {
+        "securitySettings": "جاري تحميل إعدادات الأمان...",
+        "notificationSettings": "جاري تحميل إعدادات الإشعارات..."
+    },
+    "addOption": "إضافة خيار",
+    "notificationTemplates": {
+        "title": "قوالب الإشعارات",
+        "description": "إدارة قوالب إشعارات البريد الإلكتروني ومحتواها للغات المختلفة.",
+        "templateId": "معرف القالب",
+        "noTemplates": "لم يتم العثور على قوالب إشعارات",
+        "variables": "المتغيرات",
+        "variablesHint": "انقر على متغير لإدراجه في موضع المؤشر في حقل الموضوع أو المحتوى.",
+        "selectFieldFirst": "الرجاء النقر على حقل الموضوع أو المحتوى أولاً لإدراج المتغير.",
+        "subject": "الموضوع",
+        "subjectPlaceholder": "أدخل موضوع البريد الإلكتروني",
+        "body": "المحتوى",
+        "bodyPlaceholder": "أدخل محتوى البريد الإلكتروني",
+        "bodyIsHtml": "المحتوى بصيغة HTML",
+        "moreSettings": "المزيد من الإعدادات",
+        "from": "من البريد الإلكتروني",
+        "fromPlaceholder": "مثال: support@example.com",
+        "fromName": "الاسم المرسل",
+        "fromNamePlaceholder": "مثال: منصة حافظ",
+        "replyTo":  "الرد على البريد الإلكتروني",
+        "replyToPlaceholder": "عنوان البريد الإلكتروني للرد",
+        "cc": "Cc (نسخة إلى)",
+        "ccPlaceholder": "اكتب البريد الإلكتروني واضغط Enter للإضافة",
+        "bcc": "Bcc (نسخة مخفية)",
+        "bccPlaceholder": "اكتب البريد الإلكتروني واضغط Enter للإضافة",
+        "messages": {
+            "updated": "تم تحديث القالب بنجاح"
+        },
+        "errors": {
+            "failedToLoad": "فشل في تحميل قوالب الإشعارات",
+            "failedToUpdate": "فشل في تحديث قالب الإشعارات",
+            "adminOnly": "يمكن للمسؤولين فقط الوصول إلى قوالب الإشعارات"
+        }
+    }
+}

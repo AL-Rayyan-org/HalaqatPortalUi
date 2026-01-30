@@ -1,0 +1,40 @@
+{
+    "title": "Audit Logs",
+    "description": "View and track all system activities and changes",
+    "table": {
+        "action": "Action",
+        "entity": "Entity",
+        "user": "User",
+        "entityId": "Entity ID",
+        "organization": "Organization",
+        "context": "Context",
+        "date": "Date"
+    },
+    "filters": {
+        "allOrganizations": "All Organizations",
+        "allUsers": "All Users",
+        "selectUser": "Select User",
+        "searchEntityById": "Search by entity Id"
+    },
+    "viewDetails": "View Details",
+    "details": {
+        "title": "Audit Log Details",
+        "action": "Action",
+        "entity": "Entity",
+        "entityId": "Entity ID",
+        "user": "User",
+        "organization": "Organization",
+        "scope": "Scope",
+        "role": "Role",
+        "date": "Date",
+        "context": "Context",
+        "noContext": "No context data available"
+    },
+    "errors": {
+        "failedToLoad": "Failed to load audit logs",
+        "failedToLoadFilters": "Failed to load filter options"
+    },
+    "noLogsFound": "No audit logs found",
+    "totalLogs": "Total: {{count}} log(s)",
+    "systemLevel": "System Level"
+}

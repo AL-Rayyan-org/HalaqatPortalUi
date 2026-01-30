@@ -1,0 +1,33 @@
+{
+    "title": {
+        "changeVerification": "التحقق من تغيير البريد الإلكتروني",
+        "emailVerification": "التحقق من البريد الإلكتروني"
+    },
+    "descriptions": {
+        "verifying": "يرجى الانتظار بينما نتحقق من طلب تغيير البريد الإلكتروني",
+        "changeSuccessful": "تم تغيير عنوان البريد الإلكتروني",
+        "changeError": "كانت هناك مشكلة في رابط تغيير البريد الإلكتروني",
+        "verifyingEmail": "يرجى الانتظار بينما نتحقق من البريد الإلكتروني",
+        "emailVerified": "تم التحقق من البريد الإلكتروني",
+        "verificationError": "كانت هناك مشكلة في رابط التحقق"
+    },
+    "messages": {
+        "verifying": "التحقق من طلب تغيير البريد الإلكتروني...",
+        "changeSuccessful": "تم تغيير عنوان البريد الإلكتروني ",
+        "redirectToSettings": "سيتم توجيهك إلى الإعدادات خلال ثوانٍ قليلة...",
+        "waitingMessage": "قد يستغرق هذا بضع لحظات..."
+    },
+    "errors": {
+        "invalidLinkMissingBoth": "رابط تغيير البريد الإلكتروني غير صالح. رمز التحقق وعنوان البريد الإلكتروني مفقودان.",
+        "invalidLinkMissingCode": "رابط تغيير البريد الإلكتروني غير صالح. رمز التحقق مفقود.",
+        "invalidLinkMissingEmail": "رابط تغيير البريد الإلكتروني غير صالح. عنوان البريد الإلكتروني مفقود.",
+        "failedToVerifyCode": "فشل في التحقق من الرمز",
+        "failedToCompleteChange": "فشل في إكمال تغيير البريد الإلكتروني",
+        "genericError": "حدث خطأ أثناء تغيير البريد الإلكتروني",
+        "invalidVerificationLinkMissingBoth": "رابط التحقق غير صالح. رمز التحقق وعنوان البريد الإلكتروني مفقودان.",
+        "invalidVerificationLinkMissingCode": "رابط التحقق غير صالح. رمز التحقق مفقود.",
+        "invalidVerificationLinkMissingEmail": "رابط التحقق غير صالح. عنوان البريد الإلكتروني مفقود."
+    },
+    "goToSettings": "الذهاب إلى الإعدادات",
+    "backToSettings": "العودة إلى الإعدادات"
+}
